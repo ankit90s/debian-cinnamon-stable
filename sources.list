@@ -1,0 +1,21 @@
+# MAIN REPO
+deb http://debian-archive.trafficmanager.net/debian/ bookworm main contrib non-free non-free-firmware
+# deb http://deb.debian.org/debian/ bookworm main contrib non-free non-free-firmware
+# deb http://mirror.cse.iitk.ac.in/debian/ bookworm main contrib non-free non-free-firmware
+# deb-src http://debian-archive.trafficmanager.net/debian/ bookworm main non-free-firmware
+
+# Security Repo
+deb http://security.debian.org/debian-security bookworm-security main contrib non-free non-free-firmware
+# deb-src http://security.debian.org/debian-security bookworm-security main non-free-firmware
+
+# Update Repo
+deb http://debian-archive.trafficmanager.net/debian/ bookworm-updates main contrib non-free non-free-firmware
+# deb http://deb.debian.org/debian/ bookworm-updates main contrib non-free non-free-firmware
+# deb http://mirror.cse.iitk.ac.in/debian/ bookworm-updates main contrib non-free non-free-firmware
+# deb-src http://debian-archive.trafficmanager.net/debian/ bookworm-updates main non-free-firmware
+
+# backports Repo
+deb http://debian-archive.trafficmanager.net/debian/ bookworm-backports main contrib non-free non-free-firmware
+# deb http://deb.debian.org/debian/ bookworm-backports main contrib non-free non-free-firmware
+# deb http://mirror.cse.iitk.ac.in/debian/ bookworm-backports main contrib non-free non-free-firmware
+# deb-src http://debian-archive.trafficmanager.net/debian/ bookworm-backports main contrib non-free non-free-firmware
