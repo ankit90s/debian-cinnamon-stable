@@ -24,15 +24,6 @@ apt install -y arc-theme
 echo -e "\e[1;32m Installed Materia theme \e[0m"
 apt install -y materia-gtk-theme
 
-echo -e "\e[1;32m Installed linux mint themes \e[0m"
-wget http://packages.linuxmint.com/pool/main/m/mint-x-icons/mint-x-icons_1.6.5_all.deb -O mint-x-icons.deb
-apt install -y ./mint-x-icons.deb
-rm mint-x-icons.deb
-
-wget http://packages.linuxmint.com/pool/main/m/mint-themes/mint-themes_2.1.5_all.deb -O mint-themes.deb
-apt install -y ./mint-themes.deb
-rm mint-themes.deb
-
 # Colloid theme
 git clone https://github.com/vinceliuice/Colloid-gtk-theme.git
 cd Colloid-gtk-theme

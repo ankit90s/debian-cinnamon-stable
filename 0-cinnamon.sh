@@ -19,14 +19,6 @@ cp sources.list /etc/apt/sources.list
 apt update && apt upgrade -y
 apt install -y aptitude
 
-# dispplay server 
-echo -e "\e[1;32m Installing xorg dispay server \e[0m"
-apt install -y xorg
-
-## Cinnamon installation
-echo -e "\e[1;32m Installing cinnamom \e[0m"
-apt install -y cinnamon-core
-
 # Download Managers
 echo -e "\e[1;32m Installing download managers \e[0m"
 apt install -y curl wget axel aria2
@@ -46,21 +38,12 @@ apt install -y mpv mpv-mpris
 echo -e "\e[1;32m Installed conky nefetch htop \e[0m"
 apt install -y conky neofetch htop
 
-echo -e "\e[1;32m Installed firefox-esr or chromium \e[0m"
-apt install -y firefox-esr
-
-echo -e "\e[1;32m Installed Evince document viewer \e[0m"
-apt install -y evince
-
-echo -e "\e[1;32m Installed cursor themes \e[0m"
+cho -e "\e[1;32m Installed cursor themes \e[0m"
 apt install -y bibata-cursor-theme dmz-cursor-theme
 
 echo -e "\e[1;32m Installed default terminal as alacritty \e[0m"
 apt install -y alacritty
 update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/alacritty 200 && update-alternatives --set x-terminal-emulator /usr/bin/alacritty
-
-echo -e "\e[1;32m Installed onscreen keyboard \e[0m"
-apt install -y onboard
 
 echo -e "\e[1;32m Installed starship shell prompt \e[0m"
 wget https://github.com/starship/starship/releases/latest/download/starship-x86_64-unknown-linux-musl.tar.gz
@@ -74,9 +57,6 @@ cd pfetch
 install pfetch /usr/local/bin
 cd ..
 rm -rf pfetch
-
-echo -e "\e[1;32m Copying xresources file \e[0m"
-cp Xresources /home/$username/.Xresources
 
 echo -e "\e[1;32m Installing bashrc and bash aliases \e[0m"
 cp bashrc /home/$username/.bashrc

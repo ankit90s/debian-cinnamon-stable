@@ -20,14 +20,6 @@ apt install -y git pip ranger cmatrix espeak ncdu translate-shell rsync kdeconne
 echo -e "\e[1;32m Installing yt-dlp \e[0m"
 apt install -y yt-dlp -t bookworm-backports
 
-# Dictionary
-echo -e "\e[1;32m Installing gnome-dictionary \e[0m"
-apt install -y gnome-dictionary
-
-# Torrent Management
-echo -e "\e[1;32m Installing torrent-client/transmission \e[0m"
-apt install -y transmission
-
 # sensors
 echo -e "\e[1;32m Installing sensors \e[0m"
 apt install -y lm-sensors
@@ -52,10 +44,6 @@ apt install -y mintstick
 echo -e "\e[1;32m Installing geany, micro and neovim \e[0m"
 apt install -y geany micro neovim
 git clone https://github.com/VundleVim/Vundle.vim.git /home/$username/.vim/bundle/Vundle.vim
-
-# Install plank dock
-echo -e "\e[1;32m Installing Plank \e[0m"
-apt install -y plank
 
 # ani-cli
 echo -e "\e[1;32m Installing ani-cli for anime lovers \e[0m"
