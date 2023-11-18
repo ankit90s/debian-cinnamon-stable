@@ -38,6 +38,9 @@ apt install -y mpv mpv-mpris
 echo -e "\e[1;32m Installed conky nefetch htop \e[0m"
 apt install -y conky neofetch htop
 
+echo -e "\e[1;32m Installed clipboard manager diodon \e[0m"
+apt install -y diodon
+
 cho -e "\e[1;32m Installed cursor themes \e[0m"
 apt install -y bibata-cursor-theme dmz-cursor-theme
 
