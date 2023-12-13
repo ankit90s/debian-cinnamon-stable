@@ -21,7 +21,8 @@ apt install -y aptitude
 
 # Download Managers
 echo -e "\e[1;32m Installing download managers \e[0m"
-apt install -y curl wget axel aria2
+apt install -y wget axel aria2
+apt install -y curl -t bookworm-backports
 
 echo -e "\e[1;32m Installed exa \e[0m"
 apt install -y exa 
