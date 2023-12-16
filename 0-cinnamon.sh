@@ -42,8 +42,11 @@ apt install -y conky neofetch htop
 echo -e "\e[1;32m Installed clipboard manager diodon \e[0m"
 apt install -y diodon
 
-cho -e "\e[1;32m Installed cursor themes \e[0m"
+echo -e "\e[1;32m Installed cursor themes \e[0m"
 apt install -y bibata-cursor-theme dmz-cursor-theme
+
+echo -e "\e[1;32m Remove games and other packages \e[0m"
+apt autoremove -y gnome-games anthy gedit shotwell hexchat pidgin remmina brasero cheese rhythmbox sound-juicer totem
 
 echo -e "\e[1;32m Installed default terminal as alacritty \e[0m"
 apt install -y alacritty
