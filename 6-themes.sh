@@ -13,7 +13,7 @@ builddr=$(pwd)
 apt update
 
 echo -e "\e[1;32m Installing theme dependencies \e[0m"
-apt install -y gtk2-engines-murrine gtk2-engines-pixbuf
+apt install -y gtk2-engines-murrine gtk2-engines-pixbuf sassc optipng inkscape libglib2.0-dev libxml2-utils
 
 echo -e "\e[1;32m Installed dconf editor \e[0m"
 apt install -y dconf-editor
