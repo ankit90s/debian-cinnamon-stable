@@ -19,4 +19,4 @@ curl -fsSL https://mega.nz/linux/repo/Debian_12/Release.key | gpg --dearmor | te
 apt update
 apt install -y megasync
 apt update
-apt install -y thunar-megasync
+apt install -y nemo-megasync
