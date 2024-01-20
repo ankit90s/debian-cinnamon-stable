@@ -46,10 +46,7 @@ echo -e "\e[1;32m Installed cursor themes \e[0m"
 apt install -y bibata-cursor-theme dmz-cursor-theme
 
 echo -e "\e[1;32m Remove games and other packages \e[0m"
-apt autoremove -y gnome-games anthy gedit shotwell hexchat pidgin remmina brasero cheese rhythmbox sound-juicer totem kasumi transmission-gtk firefox-esr
-
-echo -e "\e[1;32m Install qbittorrent]"
-apt install -y qbittorrent
+apt autoremove -y gnome-games anthy gedit shotwell hexchat pidgin remmina brasero cheese rhythmbox sound-juicer totem kasumi
 
 echo -e "\e[1;32m Installed default terminal as alacritty \e[0m"
 apt install -y alacritty
