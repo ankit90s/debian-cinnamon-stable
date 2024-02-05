@@ -151,16 +151,16 @@ fi
 }
 
 ### PATH
-if [ -d "$HOME/.bin" ] ;
-  then PATH="$HOME/.bin:$PATH"
+if [ -d "/home/$USER/.bin" ] ;
+  then PATH="/home/$USER/.bin:$PATH"
 fi
 
-if [ -d "$HOME/.local/bin" ] ;
-  then PATH="$HOME/.local/bin:$PATH"
+if [ -d "/home/$USER/.local/bin" ] ;
+  then PATH="/home/$USER/.local/bin:$PATH"
 fi
 
-if [ -d "$HOME/Applications" ] ;
-  then PATH="$HOME/Applications:$PATH"
+if [ -d "/home/$USER/Applications" ] ;
+  then PATH="/home/$USER/Applications:$PATH"
 fi
 
 if [ -d "/var/lib/flatpak/exports/bin/" ] ;
