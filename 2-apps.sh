@@ -14,7 +14,7 @@ apt update
 
 # Applications and utilities
 echo -e "\e[1;32m Installing apps and utilities \e[0m"
-apt install -y git pip ranger cmatrix espeak ncdu translate-shell rsync kdeconnect gpick
+apt install -y ranger cmatrix espeak ncdu translate-shell rsync kdeconnect gpick
 
 # yt-dlp
 echo -e "\e[1;32m Installing yt-dlp \e[0m"

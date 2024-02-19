@@ -19,6 +19,9 @@ cp sources.list /etc/apt/sources.list
 apt update && apt upgrade -y
 apt install -y aptitude
 
+# Install git pip pipx
+apt install -y git pip pipx
+
 # Download Managers
 echo -e "\e[1;32m Installing download managers \e[0m"
 apt install -y wget axel aria2
@@ -34,7 +37,7 @@ echo -e "\e[1;32m Installed zip unzip 7zip \e[0m"
 apt install -y zip unzip 7zip
 
 echo -e "\e[1;32m Installed mpv \e[0m"
-apt install -y mpv mpv-mpris
+apt install -y mpv mpv-mpris subliminal
 
 echo -e "\e[1;32m Installed conky nefetch htop \e[0m"
 apt install -y conky neofetch htop
