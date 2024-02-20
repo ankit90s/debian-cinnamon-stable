@@ -12,7 +12,7 @@ builddr=$(pwd)
 
 apt update
 
-echo -e "\e[1;32m Installed megasync \e[0m"
+echo -e "\e[1;32m Installing megasync \e[0m"
 
 echo 'deb https://mega.nz/linux/repo/Debian_12/ /' | tee /etc/apt/sources.list.d/megasync.list
 curl -fsSL https://mega.nz/linux/repo/Debian_12/Release.key | gpg --dearmor | tee /etc/apt/trusted.gpg.d/megasync.gpg > /dev/null

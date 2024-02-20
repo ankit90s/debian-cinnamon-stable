@@ -15,13 +15,13 @@ apt update
 echo -e "\e[1;32m Installing theme dependencies \e[0m"
 apt install -y gtk2-engines-murrine gtk2-engines-pixbuf sassc optipng inkscape libglib2.0-dev libxml2-utils
 
-echo -e "\e[1;32m Installed dconf editor \e[0m"
+echo -e "\e[1;32m Installing dconf editor \e[0m"
 apt install -y dconf-editor
 
-echo -e "\e[1;32m Installed Arc theme \e[0m"
+echo -e "\e[1;32m Installing Arc theme \e[0m"
 apt install -y arc-theme
 
-echo -e "\e[1;32m Installed Materia theme \e[0m"
+echo -e "\e[1;32m Installing Materia theme \e[0m"
 apt install -y materia-gtk-theme
 
 # Colloid theme
@@ -43,15 +43,15 @@ cd Colloid-icon-theme
 ./install -d /usr/share/icons
 cd .. && rm -rf Colloid-icon-theme
 
-echo -e "\e[1;32m Installed Nordzy cursor theme \e[0m"
+echo -e "\e[1;32m Installing Nordzy cursor theme \e[0m"
 git clone https://github.com/alvatip/Nordzy-cursors
-cd Nordzy-cursors && sudo ./install.sh
+cd Nordzy-cursors && ./install.sh
 cd ../ && rm -rf Nordzy-cursors
 
-echo -e "\e[1;32m Installed papirus icon theme \e[0m"
+echo -e "\e[1;32m Installing papirus icon theme \e[0m"
 apt install -y papirus-icon-theme -t bookworm-backports
 
-echo -e "\e[1;32m Installed papirus folder theme \e[0m"
+echo -e "\e[1;32m Installing papirus folder theme \e[0m"
 wget -qO- https://git.io/papirus-folders-install | sh
 papirus-folders -C yaru --theme Papirus-Dark
 
